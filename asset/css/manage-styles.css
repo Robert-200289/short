@@ -31,7 +31,8 @@ body {
     max-width: 30rem;
     margin: 0 auto;
     padding: 2rem;
-    color: #f4f4f4;
+    //color: #f4f4f4;
+    background: rgba(0, 0, 0, 0.3);
     //background: #333;
     font-family: Arial, sans-serif;
     line-height: 1.5;
@@ -39,12 +40,13 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 a {
     text-decoration: none;
-    color: #669966;
+    color: #FFFFFF;
     position: relative
 }
 
@@ -54,7 +56,7 @@ a::after {
     width: 100%;
     border-bottom: 1px solid;
     position: absolute;
-    color: #666;
+    color: #FFFFFF;
     left: 0;
     bottom: -2px;
     opacity: 0;

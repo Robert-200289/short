@@ -24,7 +24,7 @@
 
 ::selection {
     background-color: #d1e9d1;
-    color: #111
+    color: #111111
 }
 
 html,
@@ -155,8 +155,8 @@ hr {
     }
 
     body {
-        color: #333;
-        background: #f4f4f4
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
     }
 
     a {
@@ -185,7 +185,9 @@ hr {
         font-family: Verdana, Arial, sans-serif;
         padding: 1rem;
         font-size: 0.875rem;
-        line-height: 1.4
+        line-height: 1.4;
+        background: rgba(0, 0, 0, 0.3);
+        color: #FFFFFF;
     }
 
     h1 {

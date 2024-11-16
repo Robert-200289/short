@@ -235,7 +235,7 @@ details small {
     border: 1px solid var(--color-primary);
     border-radius: 0.25rem;
     //background: var(--color-primary);
-    color: #ddd;
+    color: #dddddd;
     font-size: 1rem;
     font-weight: 500;
     line-height: inherit;
@@ -283,21 +283,22 @@ details small {
 
 footer {
     text-align: center;
-    opacity: 0.9
+    opacity: 1
 }
 
 footer p {
-    color: #777
+    color: #FFFFFF
 }
 
 .copyright p {
     font-size: 14px;
-    margin: 0px 5px 10px 5px
+    margin: 0px 5px 10px 5px;
+    color: #FFFFFF
 }
 
 .copyright a {
     font-size: 14px;
-    color: #729888
+    color: #FFFFFF
 }
 
 @media (prefers-color-scheme:light) {

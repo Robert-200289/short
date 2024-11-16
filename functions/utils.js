@@ -7,7 +7,7 @@
 // functions/utils.js
 
 // 短网址名称
-export const shortName = `Example 短网址`;
+export const shortName = `short.furry.ist 短网址`;
 
 // 正常 Api 跨域请求允许域
 export const allowOrigin = "*"
@@ -30,7 +30,7 @@ export const specialDomains = [
 ];
 
 // 联系人邮箱
-export const adminEmail = `info@example.com`;
+export const adminEmail = `info-short@mtmail.com`;
 
 // 跳转页 Head 块
 export const htmlHead = `<!-- Head -->

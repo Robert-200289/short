@@ -34,7 +34,12 @@ body {
     color: #f4f4f4;
     background: #333;
     font-family: Arial, sans-serif;
-    line-height: 1.5
+    line-height: 1.5;
+    background-image: url('https://api.furry.ist');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 a {

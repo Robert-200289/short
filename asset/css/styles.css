@@ -67,8 +67,9 @@ body {
 }
 
 h1, p, a {
-    color: #ffffff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    color: #ffffff; /* 确保文字为白色 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); /* 增强文字阴影对比 */
+    opacity: 1; /* 提高文字透明度 */
 }
 
 body::before {
@@ -79,6 +80,7 @@ body::before {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    
     z-index: 0;
 }
 

@@ -42,12 +42,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    will-change: opacity
+    will-change: opacity;
     background-image: url('https://api.furry.ist');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 
 body {

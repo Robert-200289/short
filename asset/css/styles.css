@@ -52,7 +52,7 @@ body {
 
 body {
     color: var(--body-color);
-    background: var(--body-bg);
+    //background: var(--body-bg);
     font-family: Arial, sans-serif;
     line-height: 1.5;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);

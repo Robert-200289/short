@@ -3,7 +3,7 @@
  * MIT License
  */
 
-/* Webkit滚动条样式 */
+/* 滚动条样式 */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -19,7 +19,7 @@
     background-color: #7a9484;
 }
 
-/* 选中内容样式 */
+/* 选中文本样式 */
 ::selection {
     background-color: #d1e9d1;
     color: #111;
@@ -39,28 +39,21 @@ body, html {
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
+
 body {
     color: #f4f4f4;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* 链接样式 */
-a {
-    text-decoration: none;
-    color: #669966;
-    position: relative;
-}
-a::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    border-bottom: 1px solid;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-a:hover::after {
-    opacity: 1;
+.container {
+    max-width: 800px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }

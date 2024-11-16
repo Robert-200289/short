@@ -27,11 +27,26 @@
     color: #111
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    will-change: opacity;
+    background-image: url('https://api.furry.ist');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
 body {
     max-width: 30rem;
     margin: 0 auto;
     padding: 2rem;
-    //color: #f4f4f4;
+    color: #FFFFFF;
     background: rgba(0, 0, 0, 0.3);
     //background: #333;
     font-family: Arial, sans-serif;
@@ -42,6 +57,17 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: -1;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
 }
 
 a {
@@ -71,8 +97,9 @@ h1 {
     font-size: 50px;
     font-weight: 300;
     text-align: center;
-    opacity: 0.2;
-    text-rendering: optimizelegibility
+    opacity: 1;
+    text-rendering: optimizelegibility;
+    color: #FFFFFF;
 }
 
 #operation {
@@ -187,8 +214,8 @@ input:focus {
     }
 
     body {
-        color: #333;
-        background: #f4f4f4
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.3);
     }
 
     a {
@@ -257,7 +284,7 @@ input:focus {
 
     h1 {
         font-size: 36px;
-        opacity: 0.3
+        opacity: 1
     }
 
     a::after {

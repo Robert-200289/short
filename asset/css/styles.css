@@ -89,7 +89,7 @@ body::before {
 }
 
 .canister {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     padding: 20px;
     position: relative;

@@ -207,7 +207,7 @@ details summary {
 
 details div {
     padding: 1rem;
-    background: #c3c3c3;
+    //background: #c3c3c3;
     border-top: 1px solid var(--border-color)
 }
 
@@ -229,7 +229,7 @@ details small {
     padding: 0.5rem 0.75rem;
     border: 1px solid var(--color-primary);
     border-radius: 0.25rem;
-    background: var(--color-primary);
+    //background: var(--color-primary);
     color: #ddd;
     font-size: 1rem;
     font-weight: 500;
@@ -240,7 +240,7 @@ details small {
 }
 
 #submit:hover {
-    border-color: var(--color-primary-dark);
+   // border-color: var(--color-primary-dark);
     background: var(--color-primary-dark)
 }
 
@@ -251,7 +251,7 @@ details small {
 }
 
 #submit:disabled {
-    background: var(--color-primary);
+    //background: var(--color-primary);
     border-color: var(--color-primary);
     opacity: 0.6;
     cursor: not-allowed
@@ -325,7 +325,7 @@ footer p {
 
     body {
         color: var(--body-color);
-        background: var(--body-bg)
+        //background: var(--body-bg)
     }
 
     .canister a {
@@ -352,8 +352,8 @@ footer p {
 
     input {
         border: 1px solid var(--border-color);
-        color: #111827;
-        background: #f3f4f6
+        color: #111827
+        //background: #f3f4f6
     }
 
     details {
@@ -361,12 +361,12 @@ footer p {
     }
 
     details summary {
-        color: #1f2937;
-        background: #e5e7eb
+        color: #1f2937
+        //background: #e5e7eb
     }
 
     details div {
-        background: #f3f4f6;
+        //background: #f3f4f6;
         border-top: 1px solid var(--border-color)
     }
 

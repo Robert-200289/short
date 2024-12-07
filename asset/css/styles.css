@@ -43,7 +43,7 @@ body {
     box-sizing: border-box;
     scroll-behavior: smooth;
     will-change: opacity;
-    background-image: url('https://api.furry.ist');
+    background-image: url('https://api.furry.ist/furry-img/');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

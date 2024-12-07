@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-image: url('https://api.furry.ist');
+    background-image: url('https://api.furry.ist/furry-img/');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

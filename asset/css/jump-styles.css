@@ -34,7 +34,7 @@ body {
     box-sizing: border-box;
     scroll-behavior: smooth;
     will-change: opacity;
-    background-image: url('https://api.furry.ist');
+    background-image: url('https://api.furry.ist/furry-img/');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-    background-image: url('https://api.furry.ist');
+    background-image: url('https://api.furry.ist/furry-img/');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
